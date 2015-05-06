@@ -23,6 +23,19 @@
                         <field name="NUM">200</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="movement_stutter" id="414">
+                        <next>
+                          <block type="robot_delay" id="416" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="438">
+                                <field name="NUM">300</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
